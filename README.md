@@ -70,7 +70,6 @@ Three models were trained and compared using **5-fold cross-validation**, with M
 
 ## 📁 Repository Structure
 
-```
 1. AirBnb_Price_Prediction.ipynb   # Full analysis: EDA → feature engineering → modelling
 2. README.md
 
