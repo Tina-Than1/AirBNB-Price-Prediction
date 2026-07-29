@@ -38,11 +38,11 @@ MAPE was chosen for being scale-independent and business-intuitive, while acknow
 
 ### 1. Exploratory Data Analysis
 - Univariate analysis of price, room type, availability, and location distributions
-- 23 features shortlisted based on correlation strength and domain relevance (e.g. `accommodates`, `bedrooms`, `bathrooms`, `room_type`, `neighbourhood_cleansed`)
+- 29 features shortlisted based on correlation strength and domain relevance (e.g. `accommodates`, `bedrooms`, `bathrooms`, `room_type`, `neighbourhood_cleansed`)
 
 ### 2. Data Cleaning & Feature Engineering
 - Parsed currency/percentage strings (`price`, `host_response_rate`, `bathrooms_text`) into clean numerics
-- Engineered new features such as
+- Engineered 17 new features such as
   - `amenities_count` — number of amenities listed
   - `days_since_last_review` — recency of guest engagement
   - `host_tenure_days` — host experience on the platform
